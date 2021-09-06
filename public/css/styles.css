@@ -1,0 +1,297 @@
+
+* {
+    font-family: Roboto;
+    font-size: 12px;
+ /*border: red 0.5px solid;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3, p  {
+    font-size: 16px;
+}
+
+
+/*Header*/
+
+header {
+    background-color:#EAC926;
+    padding-left: 5vw;
+}
+
+header img{
+    width: 35vw; 
+
+}
+
+.cabecera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header .form .input{
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 200px;
+}
+header .form .submit{
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 15px;
+}
+
+header p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.imagenPrincipal {
+    width: 100%;
+    margin: auto;
+    background-color: #ebebeb ;
+    }
+.imagenPrincipal img {
+    width: 100%;
+}
+
+
+.listaHamburgesa {
+    display: flex;
+    justify-content: center;
+}
+
+.listaHamburgesa i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white ;
+    border-radius: 5px;
+    color: #0044AA;
+    font-size: 40px;
+    height: 30px;
+    margin: 10px 0px 20px 0px;
+    padding: 0px;
+    width: 40px;
+}
+
+header nav{
+    display: none;
+}
+
+@media (min-width:540px) {
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    header nav ul{
+        display:flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    .l2{
+        position: relative;
+        left: 10px;
+    }
+    .l3{
+        position: relative;
+        left: 20px;
+    }
+    .l4{
+        position: relative;
+        left: 30px;
+    }
+    .l5{
+        position: relative;
+        right: 30px;
+    }
+    .l6{
+        position: relative;
+        right: 20px;
+    }
+    .l7{
+        position: relative;
+        right: 10px;
+    }
+
+    .listaHamburgesa {
+        display: none;
+    }
+}
+
+/*Main*/
+
+
+
+h2 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+main h3 {
+    display: none;
+}
+
+main article:hover h3{
+    display: contents;
+}
+
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+@media (min-width: 361px) {
+    main h3 {
+    display: contents;
+    }
+    main section article {
+    width: 45%;
+    }
+}
+
+@media (min-width: 769px) {
+    main section article {
+    width: 20%;
+    }
+}
+
+main{
+    background-color:#ebebeb;
+}
+
+.dimension {
+    width: 90vw;
+    margin: auto;
+}
+
+.dimension img{
+    width: 100%;
+    margin: auto; 
+}
+
+.camion{
+    text-align: right;
+    height: 0.5px;
+}
+
+.camion i:hover {
+    transform: rotate(-90deg);
+    transition: 1s;
+}
+
+main article i { /*camioncito*/
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+   
+}
+
+article {
+    padding-top: 10px;
+}
+
+.caja-descripcion {
+    padding: 15px;
+    border-top: 1px #ebebeb solid;
+    background-color: white;
+}
+
+.en-linea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.en-linea2 {
+    display: flex;
+    justify-content:center;
+    width: 70%;
+
+}
+
+.articulosBasadoHistorial {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.articulosOferta {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*Footer*/
+
+footer {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 0px;
+    width: 40px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
+/* FORMULARIO REGISTER*/
+
+form {
+    margin-left: 5vw;
+    margin-block-end: 5vh;
+    margin-block-start: 5vh;
+}
+
+form p {
+    width: 95vw;
+}
+
+.formulario, .foto {
+    width: 50vw;
+    height: 5vh;
+    margin-top: 3px;
+}
+
