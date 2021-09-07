@@ -15,6 +15,6 @@ app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname,"./views/home.html"));
 })
 
-app.get("/register", (req, res) => {
+app.get("/register.html", (req, res) => {
     res.sendFile(path.resolve(__dirname,"./views/register.html"));
 })
