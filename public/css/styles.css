@@ -141,7 +141,10 @@ header nav{
 h2 {
     text-align: center;
     padding: 10px;
+}
 
+.ofertas{
+    margin: 5vh;
 }
 
 main h3 {
@@ -157,9 +160,9 @@ main section article:hover{
 }
 
 @media (min-width: 361px) {
-    main h3 {
+    /*main h3 {
     display: contents;
-    }
+    }*/
     main section article {
     width: 45%;
     }
@@ -274,23 +277,31 @@ footer{
     text-align: center;
 }
 
+@media (min-width: 769px) {
+    .footer-sin-copy {
+    display: flex;
+    justify-content: space-around;
+    }
 
+    footer section {
+        max-width: 20vw;
+    }
+}
 
 
 /* FORMULARIO REGISTER*/
-
 form {
-    margin-left: 5vw;
-    margin-block-end: 5vh;
-    margin-block-start: 5vh;
-}
+        margin-left: 20vw;
+        margin-right: 20vw;
+         }   
 
-form p {
-    width: 95vw;
-}
+
+/*form p {
+    width: 100vw;
+}*/
 
 .formulario, .foto {
-    width: 50vw;
+    width: 60vw;
     height: 5vh;
     margin-top: 3px;
 }
