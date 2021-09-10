@@ -11,7 +11,7 @@
 rel="stylesheet" />
 </head>
 <body>
-    <header> 
+    <header> <br>
         <div class="cabecera">
         <div> <img src="/img/logo-mercado-liebre.svg"> </div>
         <div class="form" action="#" method="GET">
@@ -30,30 +30,30 @@ rel="stylesheet" />
                 </ul>
                 <ul>
                     <div class="l5"><li><a href="/register.html"> Creá tu cuenta </a><i class="fas fa-id-card"></i></li></div> 
-                    <div class="l6"><li><a href="">Ingresá </a><i class="fas fa-sign-in-alt"></i></li></div>
+                    <div class="l6"><li><a href="/login.html">Ingresá </a><i class="fas fa-sign-in-alt"></i></li></div>
                     <div class="l7"><li><a href="">Mis Compras </a><i class="fas fa-shopping-basket"></i></li></div>
                 </ul>
 
-            </nav>
+            </nav><br>
             <div class="listaHamburgesa"><i class="fas fa-list-alt"></i></div>
     </header>
 
     </div>
 
-<main>
-<form action="/registro" method="POST">
+<main> <br>
+<form action="/" method="POST">
     <p>
-    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" class="formulario">
+    <input type="text" name="nombre" id="nombre" placeholder="  Nombre y Apellido" class="formulario">
     </p>
     <p>
-    <input type="text" name="usuario" id="usuario" placeholder="Usuario"class="formulario">
+    <input type="text" name="usuario" id="usuario" placeholder="  Usuario"class="formulario">
     </p>
     <p>
-    <label for="nacimiento">Nacimiento</label> <br>
-    <input type="date" name="nacimiento" id="nacimiento">
+    <label for="nacimiento" class="nacimiento-label">Nacimiento</label> <br>
+    <input type="date" name="nacimiento" id="nacimiento" class="nacimiento">
     </p>
     <p>
-    <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio"class="formulario">
+    <input type="text" name="domicilio" id="domicilio" placeholder="  Domicilio"class="formulario">
     </p>
     <p>
     <label>Perfil</label><br>
@@ -89,17 +89,18 @@ rel="stylesheet" />
     </p>
     <p>
     <label>Foto Usuario</label> <br>
-    <input type="file" name="foto" id="foto" placeholder="Foto usuario" accept=".jpg" class="foto">
+    <input type="file" name="foto" id="foto" placeholder="  Foto usuario" accept=".jpg" class="foto">
     </p>
     <p>
-    <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña"class="formulario">
+    <input type="password" name="contraseña" id="contraseña" placeholder="  Contraseña"class="formulario">
     </p>
     <p>
-    <input type="password" name="contraseña1" id="contraseña1" placeholder="Confirmar contraseña"class="formulario">
+    <input type="password" name="contraseña1" id="contraseña1" placeholder="  Confirmar contraseña"class="formulario">
     </p><br><br>
 
-    <button type="submit">Enviar</button>
-    <button type="reset"> Borrar Todo </button> 
+    <button type="submit" class="boton"><a href="/"class="boton">Enviar</a></button>
+    <br>
+    <button type="reset" class="boton-borrar"> Borrar Todo </button> 
 </form>
 <br>
 </main>

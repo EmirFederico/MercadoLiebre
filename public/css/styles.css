@@ -8,6 +8,13 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color:black;
+    font-weight: normal ;
+}
+
+
 h2 {
     font-size: 24px;
 }
@@ -25,7 +32,7 @@ header {
 }
 
 header img{
-    width: 35vw; 
+    width: 60vw; 
 
 }
 
@@ -132,6 +139,14 @@ header nav{
     .listaHamburgesa {
         display: none;
     }
+
+    ul li {
+        font-weight: bold;
+    }
+
+    header img{
+        width: 25vw;    
+    }
 }
 
 /*Main*/
@@ -143,16 +158,17 @@ h2 {
     padding: 10px;
 }
 
-.ofertas{
+/*.ofertas{
     margin: 5vh;
-}
+}*/
 
 main h3 {
     display: none;
 }
 
 main article:hover h3{
-    display: contents;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 main section article:hover{
@@ -208,11 +224,12 @@ main article i { /*camioncito*/
     border-radius: 50%;
     position: relative;
     top: -30px;
+    color:#39b54a;
    
 }
 
 article {
-    padding-top: 10px;
+    margin: 10px;
 }
 
 .caja-descripcion {
@@ -225,6 +242,7 @@ article {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-weight: bold;
 
 }
 
@@ -232,6 +250,7 @@ article {
     display: flex;
     justify-content:center;
     width: 70%;
+    color:#39b54a;
 
 }
 
@@ -254,6 +273,10 @@ footer {
     margin-right: 5vw;
 }
 
+footer h3, footer p {
+    font-size: 12px;
+}
+
 .footer i {
     display: flex;
     justify-content: center;
@@ -273,6 +296,10 @@ footer {
     justify-content: center;
 }
 
+.footer i:hover {
+    background-color:teal;
+}
+
 footer{
     text-align: center;
 }
@@ -289,12 +316,11 @@ footer{
 }
 
 
-/* FORMULARIO REGISTER*/
+/* FORMULARIO REGISTER y login*/
 form {
         margin-left: 20vw;
         margin-right: 20vw;
          }   
-
 
 /*form p {
     width: 100vw;
@@ -304,5 +330,31 @@ form {
     width: 60vw;
     height: 5vh;
     margin-top: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+.nacimiento {
+    border: none;
+}
+
+
+.boton {
+    display: block;
+    margin: 0 auto;
+    width: 60vw;
+    border:none;
+    background-color: #0044AA;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.boton a{
+    color:white;
+    padding-top:8px;
+}
+
+.boton:hover {
+    background-color: #0022AA;
 }
 
